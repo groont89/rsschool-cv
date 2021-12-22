@@ -34,9 +34,8 @@ My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend develo
     - Belarusian State University of Information and Radioelectronics
 *********************
 ## **Experence** 
--   
--
--
+- 2012/2021
+     - work on setting up telecommunication equipment
 **********************
 ## **Languages**
 - English
