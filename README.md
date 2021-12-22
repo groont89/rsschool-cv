@@ -1,2 +1,2 @@
 # rsschool-cv
-https://groont89.github.io/rsschool-cv/cv
+https://github.com/groont89/rsschool-cv/deployments/activity_log?environment=github-pages
