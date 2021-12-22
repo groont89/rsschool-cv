@@ -1,6 +1,7 @@
 # **Dmitriy Hlubokiy**
 ## *Front-end Developer -open for new opportunities*
 *location: Minsk,Belarus*
+ 
  **************************************************
 ## **My contact info**
 *********
@@ -35,6 +36,7 @@ My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend develo
 ## **Experence** 
 - 2012/2021
      - work on setting up telecommunication equipment
+ 
  **********************
 ## **Languages**
 - English
