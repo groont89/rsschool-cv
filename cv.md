@@ -21,7 +21,7 @@ My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend develo
 - CSS3
 - JS basic
 - Git&GitHub
--Photoshop
+- Photoshop
 ***********************
 ## **Education**
 - 12/2021-  
@@ -31,7 +31,7 @@ My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend develo
 - 11/2020-12/2020 
     - Course : Way up (Web coder: getting started)
 - 2007-20012 
-    - Belarusian State University og Information and Radioelectronics
+    - Belarusian State University of Information and Radioelectronics
 *********************
 ## **Experence** 
 -   
