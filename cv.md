@@ -1,7 +1,7 @@
 # **Dmitriy Hlubokiy**
 ## *Front-end Developer -open for new opportunities*
 *location: Minsk,Belarus*
-**************************************************
+ **************************************************
 ## **My contact info**
 *********
 - Email: [groont@list.ru]([groont@list.ru)
@@ -21,7 +21,7 @@ My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend develo
 - JS basic
 - Git&GitHub
 - Photoshop
-***********************
+ ***********************
 ## **Education**
 - 12/2021-  
     - Course: Rolling Scopes School (JavaScript Development)
@@ -31,11 +31,11 @@ My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend develo
     - Course : Way up (Web coder: getting started)
 - 2007-20012 
     - Belarusian State University of Information and Radioelectronics
-*********************
+ *********************
 ## **Experence** 
 - 2012/2021
      - work on setting up telecommunication equipment
-**********************
+ **********************
 ## **Languages**
 - English
      - A2
