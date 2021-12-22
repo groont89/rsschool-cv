@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    /* grid-column-gap: 1em;
+    grid-row-gap: 1em; */
+    grid-gap: 1em;
+    /* grid-auto-rows: 250px; */
+    grid-auto-rows: minmax(150px, auto);
+    background-color: rgb(0, 0, 0);
+}
+
+.wrapper > div {
+    padding: 1em;
+    background-color: #f37687;
+    border-radius: 10px;
+    background-color: rgb(240, 225, 18);
+
+}
+.included {
+    grid-row: 1/5;
+}
+    .light {
+        grid-column: 1/2;
+    }
+
+.wrapper > div.hren {
+    padding: 1em;
+    background-color: #f1a0ab;
+}
