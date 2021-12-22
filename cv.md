@@ -1,5 +1,6 @@
 # **Dmitriy Hlubokiy**
 ## *Front-end Developer -open for new opportunities*
+*location: Minsk,Belarus*
 **************************************************
 ## **My contact info**
 *********
@@ -9,9 +10,7 @@
 - Telegram:[@groont89](https://t.me/groont89)
 - Linked in: [/Dmitriy Hlubokiy](https://www.linkedin.com/in/dmitryi-hlubokyi-313a79222/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BhNobwFKVTEK5m%2BMPB6lxEw%3D%3D)
 
-***************
-*location: Minsk,Belarus*
-***********************************************
+*******************************
 ## **About Me**
 My name is Dmitryi, I am 32. Now I’m at the beginning stage of frontend developer adventure. Every job I do is usually done successfully thanks to my responsibility, motivation/dedication and diligence. My goal is  discovering new, constant self-development and sharing of knowledge and skills with others. I like to meet the challenge using my analytical abilities. At my former place of work I learned how to work in stressful situations/conditions and do not fear to make decision. High organisational and interpersonal skills, punctuality and honesty have been the basis of my upbringing. I am sure that thanks to positive attitude and a good sense of humor, you can make this world a better place!
 
