@@ -14,15 +14,15 @@
 
 <body>
 <!-- container -->
-    <div class="container">
+    <main class="container">
         <div class="left_Side">
             <div class="profileText">
                 <div class="imgBx">
-                    <img src="img/foto.jpg" alt="Dmitriy Glybokiy foto">
+                    <img src="img/myFoto.jpg" alt="Dmitriy Glybokiy foto">
                 </div>
-                <h2> Dmitriy Hlybokiy<br><span>Front-end Developer - open for new opportunities</span></h2>
+                <h1> Dmitriy Hlybokiy<br><span>Front-end Developer - open for new opportunities</span></h1>
             </div>
-            <div class="contactInfo">
+            <div class="contactInfo" id="contact_info">
                 <h3 class="title">Contact Info</h3>
                 <ul>
                     <li>
@@ -39,7 +39,7 @@
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                        <span class="text">codewars/groont89</span>
+                        <span class="text">CW/groont89</span>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
@@ -56,7 +56,7 @@
                 </ul>
             </div>
 
-            <div class="contactInfo education">
+            <div class="contactInfo education" id="education">
                 <h3 class="title">Education</h3>
                 <ul>
                     <li>
@@ -78,7 +78,7 @@
                 </ul>
             </div>
 
-            <div class="contactInfo language">
+            <div class="contactInfo language" id="language">
                 <h3 class="title">Languages</h3>
                 <ul>
                     <li>
@@ -104,19 +104,40 @@
 
         </div>
         <div class="right_Side">
+            <nav>
+            <header class="header">
+                <ul>
+                    <li><a href="#contact_info">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Language</a></li>
+                    <li><a href="#experence">Experence</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                 </ul>
+            </header>
+            </nav>
             <div class="about">
                 <h2 class="title2">About Me</h2>
-                <p>My name is Dmitryi, I am 32. <br>Now I’m at the beginning stage of frontend developer
+                <p>My name is Dmitriy, I am 32. <br>Now I’m at the beginning stage of frontend developer
                     adventure. Every job I do is usually done successfully thanks to my responsibility,
-                    dedication and diligence. My goal is discovering new, constant self-development and
-                    sharing of knowledge and skills with others. I like to meet the challenge using my analytical
-                    abilities. At my former place of work I learned how to work in stressful conditions and
-                    do not fear to make decision. High organisational and interpersonal skills, punctuality and honesty
-                    have been the basis of my upbringing. <br>I am sure that thanks to positive attitude and a good
-                    sense of humor, you can make this world a better place!</p>
+                     dedication and diligence.
+                </p>
+                 <p> My goal is discovering new, constant self-development and
+                    sharing of knowledge and skills with others.
+                </p>
+                <p>I like to meet the challenge using my analytical
+                        abilities. At my former place of work I learned how to work in stressful conditions and
+                    do not fear to make decision.
+                </p>
+                <p>High organisational and interpersonal skills, punctuality and honesty
+                    have been the basis of my upbringing.
+                </p>
+                <p>I am sure that thanks to positive attitude and a good
+                    sense of humor, you can make this world a better place!
+                </p>
             </div>
             <div class="about">
-                <h2 class="title2">Experence</h2>
+                <h2 class="title2" id="experence">Experence</h2>
                 <div class="box">
                     <div class="year_company">
                         <h5> 2012 - present</h5>
@@ -126,7 +147,7 @@
                     </div>
                 </div>
                 <div class="about skills">
-                    <h2 class="title2">Professional skills</h2>
+                    <h2 class="title2" id="skills">Professional skills</h2>
                     <div class="box">
                         <h4> HTML5</h4>
                         <div class="percent">
@@ -159,7 +180,7 @@
                     </div>
                 </div>
                 <div class="about">
-                    <h2 class="title2">code</h2>
+                    <h2 class="title2" id="code">code</h2>
                     <div class="box">
                         <div class="code_example">
                             <pre> <code>
@@ -173,8 +194,23 @@
                     </div>
                 </div>
             </div>
+            <footer class="footer">
+                    <div class="myGit">
+                        <a href="https://github.com/groont89"><span class="icon"><i class="fa fa-github" aria-hidden="true">groont89</i></span></a>
+                    </div>
+                    <div class="logo">
+                        <a href="https://rs.school/js/">
+                            <img src="img/rs_school_js.svg" alt="Rolling Scopse logo">
+                        </a>
+    
+                    </div>
+                    <div class="year_created">
+                        <h5>2021</h5>
+                    </div>
+               
+            </footer>
         </div>
-    </div>
+        
+    </main>
 </body>
-
 </html>

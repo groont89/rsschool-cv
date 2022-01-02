@@ -58,7 +58,7 @@ body {
     object-fit: cover;
 }
 
-.profileText h2{
+.profileText h1{
   color: #fff;
   font-size: 1.5em;  
   margin-top: 20px;
@@ -68,7 +68,7 @@ body {
   line-height: 1.25em;
 }
 
-.profileText h2 span {
+.profileText h1 span {
     font-size: 0.65em;
     font-weight: 300;
 }
@@ -217,4 +217,83 @@ p {
 }
 .title2 p {
     text-align: justify;
+}
+
+.header {
+   background: #FFFACD;
+    border-radius: 10px;
+    margin-bottom: 50px;
+} 
+header ul {
+    width: 100%;
+    display: flex;
+    
+
+ }
+ header ul li {
+     display: inline-block;
+     margin: 20px;
+     
+ }
+ header ul li a{
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    color:black;
+    
+ }
+ header ul li a:hover {
+    text-decoration: underline;
+ }
+ .footer{
+    position: relative;
+    top: 350px;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 1em;   
+ }
+ 
+ .myGit {
+
+    display:inline-block;
+    display: flex;
+    justify-content: center;
+    color:black;
+ }
+ .logo {
+    width: 200px;
+    height: 200px;
+ }
+ .year_created {
+    color:black;
+    margin-top: 5px;
+ }
+@media (max-width:1000px){
+
+    .container  {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+    position: relative;
+    top: 70px;
+    left: 0;
+    }
+}
+@media (max-width:600px){
+    .about .box {
+        flex-direction: column;
+    }
+    .about .box .year_company{
+        margin-bottom: 5px;
+    }
+    .footer{
+        position: relative;
+        top: 70px;
+        left: 0;
+        }
 }
