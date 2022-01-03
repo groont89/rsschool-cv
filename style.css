@@ -250,27 +250,28 @@ header ul {
     position: relative;
     top: 350px;
     left: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 100px;
-    grid-row-gap: 1em;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
  }
  
  .myGit {
-
-    display:inline-block;
-    display: flex;
-    justify-content: center;
-    color:black;
+    font-size: 30px;
+   width: 200px;
+   height: 80px;
+ }
+ .myGit a{
+     color:black;
  }
  .logo {
     width: 200px;
-    height: 200px;
+    height: 80px;
  }
  .year_created {
     color:black;
-    margin-top: 5px;
+    font-size: 30px;
+    
  }
 @media (max-width:1000px){
 
@@ -280,7 +281,7 @@ header ul {
     }
     .footer{
     position: relative;
-    top: 70px;
+    top: 30px;
     left: 0;
     }
 }
@@ -288,12 +289,15 @@ header ul {
     .about .box {
         flex-direction: column;
     }
+    .header{
+        display:none;
+    }
     .about .box .year_company{
         margin-bottom: 5px;
     }
     .footer{
         position: relative;
-        top: 70px;
+        top: 30px;
         left: 0;
         }
 }
