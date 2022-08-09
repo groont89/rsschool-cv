@@ -31,23 +31,25 @@
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <span class="text">groont@list.ru</span>
+                        <a class="text" href="mailto:dmitriy.hlubokiy@yandex.by">dmitriy.hlubokiy<br>@yandex.by </a>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-                        <span class="text">groont89</span>
+                        <a class="text" href="https://github.com/groont89" target="_blank">groont89</a>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                        <span class="text">CW/groont89</span>
+                        <a class="text" href="https://www.codewars.com/users/groont89"
+                            target="_blank">CodeWars<br>/groont89</a>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
-                        <span class="text">groont89</span>
+                        <a href="https://t.me/groont89" target="_blank" class="text">groont89</a>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                        <span class="text">Dmitriy Hlubokiy</span>
+                        <a href="https://www.linkedin.com/in/dmitriy-hlubokiy-313a79222/" target="_blank"
+                            class="text">Dmitriy Hlubokiy</a>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -60,7 +62,11 @@
                 <h3 class="title">Education</h3>
                 <ul>
                     <li>
-                        <h5> 12/2021 - </h5>
+                        <h5> 03/2022 - now </h5>
+                        <h4> Course: RedevEducation </h4>
+                    </li>
+                    <li>
+                        <h5> 12/2021 -03/2022 </h5>
                         <h4> Course: Rolling Scopes School (JavaScript Development) </h4>
                     </li>
                     <li>
@@ -82,23 +88,14 @@
                 <h3 class="title">Languages</h3>
                 <ul>
                     <li>
-                        <span class="text"> English</span>
-                        <span class="percent">
-                            <span style="width: 30%;"></span>
-                        </span>
+                        <h5> English</h5>
+                        <h4> A2+</h4>
                     </li>
                     <li>
-                        <span class="text"> Russian</span>
-                        <span class="percent">
-                            <span style="width: 95%;"></span>
-                        </span>
+                        <h5> Russian</h5>
+                        <h4> native </h4>
                     </li>
-                    <li>
-                        <span class="text"> Body language</span>
-                        <span class="percent">
-                            <span style="width: 45%;"></span>
-                        </span>
-                    </li>
+
                 </ul>
             </div>
 
@@ -118,7 +115,9 @@
             </nav>
             <div class="about">
                 <h2 class="title2">About Me</h2>
-                <p>My name is Dmitriy, I’m 32. <br>Now I’m at the beginning stage of my frontend developer adventure. Every job I do is usually done successfully thanks to my responsibility, dedication and diligence.
+                <p>My name is Dmitriy, I’m 32.</p>
+                <p>Now I’m at the beginning stage of my frontend developer adventure. Every job I do is usually done
+                    successfully thanks to my responsibility, dedication and diligence.
                 </p>
                 <p> My goal is discovering new, constant self-development and
                     sharing knowledge and skills with others.
@@ -149,19 +148,19 @@
                     <div class="box">
                         <h4> HTML5</h4>
                         <div class="percent">
-                            <div style="width: 80%;"></div>
+                            <div style="width: 90%;"></div>
                         </div>
                     </div>
                     <div class="box">
                         <h4> CSS3</h4>
                         <div class="percent">
-                            <div style="width: 70%;"></div>
+                            <div style="width: 85%;"></div>
                         </div>
                     </div>
                     <div class="box">
                         <h4> Java Script</h4>
                         <div class="percent">
-                            <div style="width: 60%;"></div>
+                            <div style="width: 95%;"></div>
                         </div>
                     </div>
                     <div class="box">
@@ -176,42 +175,61 @@
                             <div style="width: 70%;"></div>
                         </div>
                     </div>
-                </div>
-                <div class="about">
-                    <h2 class="title2" id="code">code</h2>
                     <div class="box">
-                        <div class="code_example">
-                            <pre> <code>
-                            const answers = ['iVan',' dmITRiy','PETRO','makSIM'];
-                            const newAnswers = answers.map(item => {
-                              return item.toLowerCase();
-                            });
-                            console.log(newAnswers);
+                        <h4> React</h4>
+                        <div class="percent">
+                            <div style="width: 15%;"></div>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <h2 class="title2" id="code">code</h2>
+                        <div class="box">
+                            <div>
+                                <pre class="name_example">Рекурсия <code class="code_example">
+                                function factorial(par){
+                                   return par ? par*factorial(par-1) :1;
+                                 }
                         </code></pre>
+                                <pre class="name_example">Замыкание <code class="code_example">
+                                 function ShowName(a) {
+                                    return function(b) {
+                                      return a + b;
+                                    }
+                                 }
+                                 
+                                let name = ShowName("Dmitriy");
+                                console.log(name(" Hlubokiy"));
+                    </code></pre>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            <footer class="footer">
-                <div class="myGit">
+
+        </div>
+        <div class="footer">
+            <ul class="list">
+                <li class="myGit">
                     <a href="https://github.com/groont89">
                         <span class="icon">
-                            <i class="fa fa-github"  aria-hidden="true">groont89</i>
+                            <i class="fa fa-github" aria-hidden="true">groont89</i>
                         </span>
                     </a>
-                </div>
-                <div class="logo">
-                    <a href="https://rs.school/js/">
-                        <img src="img/rs_school_js.svg" alt="Rolling Scopse logo">
+                </li>
+                <li class="logo">
+                    <a href="https://www.codewars.com/users/groont89" target="_blank">
+                        <img src="img/codewars.svg" alt="CodeWars">
                     </a>
-
-                </div>
-                <div class="year_created">
-                    <h5>2021</h5>
-                </div>
-
-            </footer>
+                </li>
+                <li class="year_created">
+                    <h5>2022</h5>
+                </li>
+            </ul>
         </div>
+
+        
+
 
     </main>
 </body>
